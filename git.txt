@@ -1,0 +1,21 @@
+bước 1: clone dự án trên git về
+-git clone <link dự án git>
+
+bước 2: vào thư mục mới clone về
+- cd <tên thư mục> (nếu bước 1 còn mở git bash)(thấy rắc rối quá thì tắt nó đi rồi vào thư mục đó luôn)
+
+bước 3: đẩy dự án lên git
+- git add .
+- git commit -m "first commit"
+- git push
+
+=====================================
+lệnh lấy code về
+- git pull
+
+===========================================
+lệnh tạo nhánh mới
+- git checkout -b <tên_nhánh> (** tên nhánh ko được ghi dấu và khoảng trắng)
+lệnh up nhánh lên git
+- git push -u origin <tên_nhánh>
+
